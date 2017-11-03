@@ -1,9 +1,9 @@
-//Ingresamos numero de tarjeta 
-var numCard = prompt("4551038207641635") 
+//Ingresamos numero de tarjetaEjmplo: numero de tarjeta(4551038207641635)
+var numCard = prompt("Ingrese un numero de tarjeta de credito!");
 //Pasar los numeros a un array 
-  var numArray = numCard.split(""); 
-  //colocamos los numeros en orden inverso 
-  var numReverse = numArray.reverse(); 
+var numArray = numCard.split(""); 
+//colocamos los numeros en orden inverso 
+var numReverse = numArray.reverse(); 
 
 function isValidCard(numCard){ 
   //variable donde estara almacenado temporalmente el nuevo numero convertido a entero 
